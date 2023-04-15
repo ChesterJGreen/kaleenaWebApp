@@ -1,15 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is the about page</h1>
+  <div class="about container-fluid my-5">
+    <div class="row">
+      <div class="clo-12 mt-5">
+        <h1>This is the About Me page</h1>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  setup() {
-    return {
-
-    }
-  }
+  name: 'AboutPage'
 }
 </script>
