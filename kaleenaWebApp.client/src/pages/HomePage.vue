@@ -59,7 +59,7 @@
       </div>
 
     </div>
-    <FooterNavbarVue />
+    <Footer />
   </div>
 </template>
 
