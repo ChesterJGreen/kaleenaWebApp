@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid bg-white">
     <nav class="row navbar navbar-expand-lg">
       <div class="col-12">
         <div class="row">

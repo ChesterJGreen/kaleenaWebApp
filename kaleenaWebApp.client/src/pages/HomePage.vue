@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-grow-1 container-fluid">
+  <div class="flex-grow-1 container-fluid bg-white">
     <div class="row">
       <div class="col-12 my-3"></div>
       <div class="col-12 p-0" id="HeroImg">
