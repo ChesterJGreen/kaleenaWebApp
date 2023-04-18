@@ -65,7 +65,7 @@
                       </li>
                       <li>
                         <span class="p-1 ">
-                          <button class="btn text-white rounded-pill bg-primary volk p-1.5 ms-3" data-toggle="modal"
+                          <button class="btn text-white pink-button rounded-pill volk p-1.5 ms-3" data-toggle="modal"
                             data-target="#newsletterModal">Newsletter</button>
                         </span>
                       </li>
