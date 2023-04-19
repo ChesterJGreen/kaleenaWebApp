@@ -25,6 +25,23 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-12">
+        
+          <ul class="navbar justify-content-center justify-content-end">
+            <ul>
+              <a href="https://www.facebook.com/kaleena.shreeve"><img width="25"
+                  src="src\assets\img\f_logo_RGB-Black_144.png"></a>
+            </ul>
+            <ul>
+              <a href="https://www.instagram.com/kaleenashreeve1/"><img width="25"
+                  src="src\assets\img\Instagram_Glyph_Black.png"></a>
+            </ul>
+            <ul>
+              <a href="https://www.instagram.com/kaleenashreeve1/"><img width="25"
+                  src="src\assets\img\PinterestLogo.png"></a>
+            </ul>
+          </ul>
+        </div>
       </div>
       <div class="row">
       </div>
@@ -57,17 +74,7 @@
                 Contact
               </router-link>
             </li>
-          </ul>
-          <ul class="navbar-nav justify-content-right justify-content-end">
-            <ul>
-              <a href="https://www.facebook.com/kaleena.shreeve"><img width="25"
-                  src="src\assets\img\f_logo_RGB-Black_144.png"></a>
-            </ul>
-            <ul>
-              <a href="https://www.instagram.com/kaleenashreeve1/"><img width="25"
-                  src="src\assets\img\Instagram_Glyph_Black.png"></a>
-            </ul>
-          </ul>
+        </ul>
         </div>
   
       </nav>
