@@ -9,8 +9,8 @@
             <div class="col-6 p-5 text-center">
               <div class="row">
                 <div class="col-12 pt-5" id="SweetBites">
-                  <p class="ThanksText">Thanks for stopping by!</p>
-                  <button class="btn rounded p-4 keepInTouch" data-toggle="modal"
+                  <p class="ThanksText cardo-font">Thanks for stopping by!</p>
+                  <button class="btn rounded p-4 keepInTouch cardo-font" data-toggle="modal"
                               data-target="#newsletterModal">Let's keep in touch</button>
                     <img src="src\assets\img\Arrow.png" id="Arrow">
                     <p id="SBText">Sweet Bites</p>
@@ -113,7 +113,6 @@
     border-radius: 12px;
   }
   .ThanksText {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 300%;
   }
   #SweetBites {
@@ -132,6 +131,7 @@
   }
   .keepInTouch {
     background-color: rgb(201 210 188);
+    font-size:xx-large;
   }
   #NewsLetter {
     font-size: 300%;
