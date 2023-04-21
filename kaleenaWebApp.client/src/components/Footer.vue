@@ -69,7 +69,7 @@
                 </router-link>
             </ul>
             <div class="col-3">
-                
+                <span><i class="fa-regular fa-copyright"></i>2023 Kaleena Shreeve</span>
             </div>
         </div>
 
