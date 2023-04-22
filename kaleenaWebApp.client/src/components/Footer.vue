@@ -68,8 +68,8 @@
                     Contact
                 </router-link>
             </ul>
-            <div class="col-3">
-                <span class="material-symbols-outlined">©</span><span>2023 Kaleena Shreeve</span>
+            <div class="col-2 offset-1">
+                <span class="copyright-text">© 2023 Kaleena Shreeve</span>
             </div>
         </div>
 
@@ -146,5 +146,9 @@ button {
 .footer-text {
     font-family: 'Volk', serif;
     font-size: 175%;
+}
+.copyright-text {
+        font-size: 70%;;
+    
 }
 </style>
