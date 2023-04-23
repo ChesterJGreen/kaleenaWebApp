@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-12">
                 <ul class="navbar justify-content-center justify-content-end">
                     <ul>
@@ -43,32 +43,36 @@
             </div>
         </div>
         <div class="row footer-text">
-            <ul class="col-2 offset-3 text-end">
-                <router-link :to="{ name: 'About' }" class="text-dark selectable text-uppercase">
-                    About Me
-                </router-link>
-            </ul>
-            <ul class="col-1 text-center">
-                <router-link :to="{ name: 'Books' }" class="text-dark selectable text-uppercase">
-                    Books
-                </router-link>
-            </ul>
-            <ul class="col-1">
-                <router-link :to="{ name: 'Journeys' }" class=" text-dark selectable text-uppercase">
-                    Extras
-                </router-link>
-            </ul>
-            <ul class="col-1 text-center">
-                <router-link :to="{ name: 'Blog' }" class="text-dark selectable text-uppercase">
-                    Blog
-                </router-link>
-            </ul>
-            <ul class="col-1">
-                <router-link :to="{ name: 'Contact' }" class="text-dark selectable text-uppercase">
-                    Contact
-                </router-link>
-            </ul>
-            <div class="col-2 offset-1">
+            <div class="col-9 offset-1">
+                <div class="row">
+                    <ul class="col-2 offset-2 text-end">
+                        <router-link :to="{ name: 'About' }" class="text-dark selectable text-uppercase">
+                            About Me
+                        </router-link>
+                    </ul>
+                    <ul class="col-2 text-center">
+                        <router-link :to="{ name: 'Books' }" class="text-dark selectable text-uppercase">
+                            Books
+                        </router-link>
+                    </ul>
+                    <ul class="col-1">
+                        <router-link :to="{ name: 'Journeys' }" class=" text-dark selectable text-uppercase">
+                            Extras
+                        </router-link>
+                    </ul>
+                    <ul class="col-2 text-center">
+                        <router-link :to="{ name: 'Blog' }" class="text-dark selectable text-uppercase">
+                            Blog
+                        </router-link>
+                    </ul>
+                    <ul class="col-1">
+                        <router-link :to="{ name: 'Contact' }" class="text-dark selectable text-uppercase">
+                            Contact
+                        </router-link>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2">
                 <span class="copyright-text">© 2023 Kaleena Shreeve</span>
             </div>
         </div>
@@ -143,12 +147,15 @@ button {
     font-size: 300%;
     font-family: 'Volk', serif;
 }
+
 .footer-text {
     font-family: 'Volk', serif;
     font-size: 175%;
 }
+
 .copyright-text {
-        font-size: 70%;;
-    
+    font-size: 70%;
+    ;
+
 }
 </style>
