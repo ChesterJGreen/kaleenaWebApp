@@ -48,7 +48,7 @@
                     About Me
                 </router-link>
             </ul>
-            <ul class="col-1">
+            <ul class="col-1 text-center">
                 <router-link :to="{ name: 'Books' }" class="text-dark selectable text-uppercase">
                     Books
                 </router-link>
@@ -58,7 +58,7 @@
                     Extras
                 </router-link>
             </ul>
-            <ul class="col-1">
+            <ul class="col-1 text-center">
                 <router-link :to="{ name: 'Blog' }" class="text-dark selectable text-uppercase">
                     Blog
                 </router-link>
