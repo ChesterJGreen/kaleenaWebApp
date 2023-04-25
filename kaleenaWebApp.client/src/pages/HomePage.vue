@@ -8,8 +8,9 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <div class="row">
-          <div class="col-5 offset-6" id="LoveStoryTxt">
+        <div class="row" id="love-story-text">
+          <div class="col-5 heart"></div>
+          <div class="col-5 offset-6" id="love-story-font">
             <p class="text-white text-center">LIVE IN A</p>
             <p class="text-white text-center">LOVE STORY</p>
           </div>
@@ -106,7 +107,7 @@ export default {
 #HeroImg {
   position: relative;
 }
-#LoveStoryTxt {
+#love-story-font {
   position: absolute;
   left: 1.5em;
   top: 3em;
@@ -128,5 +129,56 @@ export default {
 .rochester {
   font-size: larger;
   font-family: 'Rochester', 'Times New Roman', Times, serif;
+}
+#love-story-text {
+  position: relative;
+  top: -40em;
+}
+.heart {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transform: rotate(-45deg);
+    position: relative;
+    left: 78rem;
+    top: 20rem;
+    animation: heartbeat 1s infinite;
+}
+
+.heart::before, 
+.heart::after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart::before {
+    top: -50px;
+    left: 0px;
+}
+
+.heart::after {
+    left: 50px;
+    top: 0px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1)
+            rotate(-45deg);
+    }
+
+    25% {
+        transform: scale(1.25)
+            rotate(-45deg);
+    }
+
+    45% {
+        transform: scale(1.5)
+            rotate(-45deg);
+    }
 }
 </style>
