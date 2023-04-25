@@ -143,6 +143,7 @@ export default {
     left: 78rem;
     top: 20rem;
     animation: heartbeat 1s infinite;
+    border: 4mm 2px 1px 1px rgb(255, 255, 255)
 }
 
 .heart::before, 
@@ -172,13 +173,14 @@ export default {
     }
 
     25% {
-        transform: scale(1.25)
+        transform: scale(1.35)
             rotate(-45deg);
     }
 
-    45% {
-        transform: scale(1.5)
+    50% {
+        transform: scale(1.75)
             rotate(-45deg);
     }
+
 }
 </style>
