@@ -9,7 +9,7 @@
     <div class="row">
       <div class="col-12">
         <div class="row" id="love-story-text">
-          <div class="col-5 heart"></div>
+          <div class="col-5"></div>
           <div class="col-5 offset-6" id="love-story-font">
             <p class="text-white text-center">LIVE IN A</p>
             <p class="text-white text-center">LOVE STORY</p>
