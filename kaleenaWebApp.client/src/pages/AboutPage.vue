@@ -32,24 +32,24 @@
         <img src="src\assets\img\KaleenaPortrait.jpg" alt="" width="500">
       </div>
       <div class="col-4 mt-5 text-center">
-        <div class="row">
+        <div class="row mt-5">
           <div class="col-12 mt-5">
-            <span>If you like</span>
+            <span class="cardo-font large-font">If you like</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 my-3">
+            <span class="cardo-font large-font">enchanting stories,</span>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <span>enchanting stories,</span>
+            <span class="cardo-font large-font">you are in the right</span>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <span>you are in the right</span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <span>place.</span>
+            <span class="cardo-font large-font">place.</span>
           </div>
         </div>
       </div>
