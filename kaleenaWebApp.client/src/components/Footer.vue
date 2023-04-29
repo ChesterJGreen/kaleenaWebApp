@@ -13,8 +13,8 @@
                                 <button class="btn rounded p-4 keepInTouch cardo-font" data-toggle="modal"
                                     data-target="#newsletterModal">Let's keep in touch</button>
                                 <img src="src\assets\img\Arrow.png" id="Arrow">
-                                <p id="SBText">Sweet Bites</p>
-                                <p id="NewsLetter">Newsletter</p>
+                                <p id="SBText" class="rochester-font">Sweet Bites</p>
+                                <p id="NewsLetter" class="volk-font">Newsletter</p>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row footer-text">
+        <div class="row footer-text volk-font">
             <div class="col-9 offset-1">
                 <div class="row">
                     <ul class="col-2 offset-2 text-end">
@@ -102,15 +102,9 @@ a:hover {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-
-li {
-    font-family: cursive;
-}
-
 button {
     font-size: x-large;
 }
-
 .pinkBorder {
     border: solid 12px;
     border-color: rgb(250, 183, 224);
@@ -135,7 +129,6 @@ button {
 
 #SBText {
     font-size: 400%;
-    font-family: 'Rochester', serif;
 }
 
 .keepInTouch {
@@ -145,17 +138,13 @@ button {
 
 #NewsLetter {
     font-size: 300%;
-    font-family: 'Volk', serif;
 }
 
 .footer-text {
-    font-family: 'Volk', serif;
     font-size: 175%;
 }
 
 .copyright-text {
     font-size: 70%;
-    ;
-
 }
 </style>

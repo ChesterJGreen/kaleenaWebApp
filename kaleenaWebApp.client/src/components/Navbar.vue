@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-3 p-2 offset-9" id="SweetBites">
             <img src="src\assets\img\Arrow.png" id="Arrow">
-            <span class="text-start" id="SBText">Sweet Bites</span>
+            <span class="text-start rochester-font" id="SBText">Sweet Bites</span>
           </div>
         </div>
         <div class="row">
@@ -19,7 +19,7 @@
           <div class="col-9">
             <div class="collapse navbar-collapse pt-3" id="navbarText">
               <ul class="navbar-nav justify-content-right justify-content-end">
-                <ul class="navbar-nav me-auto text-dark volk d-flex flex-row">
+                <ul class="navbar-nav me-auto text-dark volk-font font-30px d-flex flex-row">
                   <div class="row ">
                     <div class="col-9 d-flex">
                       <Div class="row">
@@ -65,7 +65,7 @@
                       </li>
                       <li>
                         <span class="p-1 ">
-                          <button class="btn text-white pink-button rounded-pill volk p-1.5 ms-3" data-toggle="modal"
+                          <button class="btn text-white pink-button rounded-pill volk-font font-30px p-1.5 ms-3" data-toggle="modal"
                             data-target="#newsletterModal">Newsletter</button>
                         </span>
                       </li>
@@ -106,8 +106,7 @@ a:hover {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.volk {
-  font-family: 'Vollkorn', serif;
+.font-30px {
   font-size: 30px;
 }
 .router {
@@ -130,6 +129,5 @@ button {
   top: -0.25em;
   left: 5.25em;
   font-size: xx-large;
-  font-family: 'Rochester', serif;
 }
 </style>
