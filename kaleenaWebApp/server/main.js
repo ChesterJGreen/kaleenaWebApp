@@ -22,7 +22,20 @@ Startup.ConfigureRoutes(app)
 socketProvider.initialize(httpServer)
 
 // Connect to Atlas MongoDB
-DbConnection.connect()
+// DbConnection.connect()
+const mysql = require('mysql')
+const db = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: ''
+})
+db.connect(err => {
+  if(err) {
+    throw err
+  }
+  console.log('MySQL Connected')
+})
+
 
 // Start Server
 httpServer.listen(port, () => {
