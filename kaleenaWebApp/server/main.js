@@ -29,12 +29,12 @@ const db = mysql.createConnection({
   user: 'root',
   password: ''
 })
-db.connect(err => {
-  if(err) {
-    throw err
-  }
-  console.log('MySQL Connected')
-})
+// db.connect(err => {
+//   if(err) {
+//     throw err
+//   }
+//   console.log('MySQL Connected')
+// })
 
 
 // Start Server

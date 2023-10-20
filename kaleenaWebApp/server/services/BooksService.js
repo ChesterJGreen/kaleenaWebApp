@@ -38,4 +38,4 @@ class BooksService {
   }
 }
 
-export const BooksService = new BooksService()
+export const booksService = new BooksService()
