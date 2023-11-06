@@ -1,5 +1,6 @@
 import { Auth0Provider } from '@bcwdev/auth0provider'
 import BaseController from '../utils/BaseController'
+import { booksService } from '../services/BooksService'
 
 export class BooksController extends BaseController {
   constructor() {
@@ -15,7 +16,8 @@ export class BooksController extends BaseController {
 
   async getAll(req, res, next) {
     try {
-      return res.send(['value1', 'value2'])
+      const books = await booksService.getAll(req.query)
+      return res.send(books)
     } catch (error) {
       next(error)
     }
