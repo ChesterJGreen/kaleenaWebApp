@@ -5,7 +5,10 @@ export const BooksSchema = new Schema(
   {
     title: { type: String, required: true },
     description: { type: String, required: true },
-    creatorId: { type: Schema.Types.ObjectId, ref: 'Profile', required: true }
+    creatorId: { type: Schema.Types.ObjectId, ref: 'Profile', required: true },
+    image: { type: String, required: true}, 
+    synopsis: { type: String, required: true},
+    banner: { type: String, required: true}
   },
   { timestamps: true, toJSON: { virtuals: true } }
 )
