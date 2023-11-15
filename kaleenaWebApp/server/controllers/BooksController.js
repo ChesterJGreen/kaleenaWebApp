@@ -5,12 +5,13 @@ import { booksService } from '../services/BooksService'
 export class BooksController extends BaseController {
   constructor() {
     super('api/books')
+    console.log("it works")
     this.router
-      .get('', this.getAll)
+      //.get('', this.getAll)
       // NOTE If there is an authenticated user it will attach here otherwise allows through
-      .get('/:id', Auth0Provider.tryAttachUserInfo, this.getOneValue)
+      //.get('/:id', Auth0Provider.tryAttachUserInfo, this.getOneValue)
       // NOTE: Beyond this point all routes require Authorization tokens (the user must be logged in)
-      .use(Auth0Provider.getAuthorizedUserInfo)
+      // .use(Auth0Provider.getAuthorizedUserInfo)
       .post('', this.create)
   }
 
@@ -37,6 +38,7 @@ export class BooksController extends BaseController {
   async create(req, res, next) {
     try {
       // NOTE NEVER TRUST THE CLIENT TO ADD THE CREATOR ID
+      console.log("it works again");
       req.body.creatorId = req.userInfo.id
       res.send(req.body)
     } catch (error) {
